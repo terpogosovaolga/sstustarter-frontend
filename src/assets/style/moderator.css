@@ -1,0 +1,20 @@
+.moder {
+    margin: 1rem 0;
+}
+
+.moder {
+    background-color: var(--light);
+}
+
+.moder {
+    padding: 1rem;
+}
+
+.moder p {
+    margin-bottom: 0;
+}
+
+.moder .who {
+    font-weight: 700;
+    color: var(--blue);
+}

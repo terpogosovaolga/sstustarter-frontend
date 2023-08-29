@@ -1,0 +1,438 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway-EB;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    overflow-x: hidden;
+
+    --blue: #0061C7;
+    --grey: #696969;
+    --black: #232323;
+    --light: #EAF4FF;
+    --darkgrey: #282828;
+
+    font-size: 16px;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: var(--blue)
+}
+.h100 {
+    height: 100%;
+}
+
+.color-blue {
+    color: var(--blue)
+}
+
+.color-green {
+    color: green;
+}
+.color-red {
+    color: red;
+}
+
+a.color-blue:hover {
+    color: #002a57;
+}
+
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway-EB;
+}
+
+.forbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_btn {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--black);
+    box-shadow: 0.5rem 0.5rem 0px var(--blue);
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.create_btn:hover {
+    background-color: black;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+main:not(.reset) h1 {
+    color: var(--black);
+    margin-bottom: 4rem;
+}
+
+.mt-5rem {
+    margin-top: 5rem;
+}
+.mb-5rem {
+    margin-bottom: 5rem;
+}
+
+footer {
+    background-color: var(--black);
+    color: white;
+    padding: 5rem 0;
+}
+
+
+footer a {
+    color: white;
+    transition: 0.7s;
+    line-height: 2.5em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer h5 {
+    font-weight: 600;
+}
+
+footer .media a {
+    padding: 0.5rem;
+    background-color: #292929;
+    margin-right: 0.3rem;
+    transition: 0.7s;
+    cursor: pointer;
+}
+footer .media a:hover {
+    background-color: #363636;
+}
+
+footer .media a img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+header.blue .menu {
+    background-color: var(--blue);
+    padding: 1rem 0;
+}
+
+header.blue .menu li a {
+    color: white;
+    opacity: 0.6;
+    font-weight: 600;
+}
+
+header.blue .menu li a:hover {
+    opacity: 1;
+    color: white;
+}
+
+header.blue .navbar-nav .nav-link.active {
+    color: white !important;
+    opacity: 1;
+}
+
+.form-control, .form-select {
+    width: auto;
+    background-color: var(--light);
+    border-radius: 0;
+    border: none;
+    padding: 0.6rem 1rem;
+}
+
+.form-control.white, .form-select.white {
+    background-color: white;
+}
+
+.form-control:focus, .form-select:focus  {
+    box-shadow: none;
+    
+}
+.ml-1rem {
+    margin-left: 1rem;
+}
+.ml-2rem {
+    margin-left: 2rem;
+}
+.mr-1rem {
+    margin-right: 1rem;
+}
+
+.form-check-input {
+    border-radius: 0 !important;
+}
+
+.form-check-input:focus {
+    border-color: var(--grey);
+    box-shadow: none;
+}
+.form-check-input:checked {
+    background-color: var(--black);
+}
+
+.form-control:focus {
+    background-color: var(--light);
+}
+
+.form-control.big {
+    width: 100%;
+}
+
+
+footer {
+    margin-top: 4rem;
+}
+
+.h45 {
+    margin-top: 45vh;
+}
+
+.nav-link img {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav-link.active img, .nav-link:hover img {
+    opacity: 1;
+}
+
+
+.count_projects {
+    display: flex;
+    flex-direction: column;
+    color: var(--grey);
+    font-weight: 600;
+}
+.count_projects span.number {
+    color: var(--blue);
+    font-size: 3rem;
+}
+
+.color-black {
+    /* color: black; */
+    font-weight: 600;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.mt-2rem {
+    margin-top: 2rem;
+}
+.mt-15rem {
+    margin-top: 1.5rem;
+}
+
+div.create_btn {
+    margin-top: 2rem;
+}
+form {
+    width: 100%;
+}
+
+.profile .alert {
+    background-color: var(--light);
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.profile .alert span {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: grey;
+}
+
+.ready {
+    background-color: var(--blue);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--blue);
+}
+
+.cancel {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: white;
+}
+
+
+
+.for_form {
+    min-width: 400px;
+    background-color: var(--light);
+    margin: 3rem auto;
+    padding: 1rem 3rem 3rem 3rem;
+}
+
+span.step {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+span.symbs {
+    color: var(--grey);
+    font-size: 0.8em;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.more_goal {
+    cursor: pointer;
+    color: var(--grey);
+    font-weight: 700;
+    font-size: 3rem;
+    transition: 0.5s;
+    margin-left: 0.3rem;
+    line-height: 1;
+}
+
+.more_goal:hover {
+    color: var(--blue);
+}
+
+.one_goal {
+    display: flex; 
+    align-items: center;
+}
+
+.goal_number {
+    font-weight: 700;
+    margin-right: 0.7rem;
+}
+
+label.date {
+    padding-right: 1rem;
+}
+
+.background {
+    background-color: rgba(40,40,40, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 100;
+}
+
+.window {
+    width: 60%;
+    padding: 2rem;
+    background-color: white;
+
+}
+
+.window .descr p {
+    margin-bottom: 0;
+}
+
+.one {
+    margin-top: 1rem;
+}
+
+.cancel_btn {
+    color: var(--blue);
+    padding: 1rem 2rem;
+    background-color: var(--light);
+    font-weight: 700;
+    margin-left: 2rem;
+    transition: 0.5s;
+}
+
+.cancel_btn {
+    background-color: white;
+}
+
+.flyalert {
+    position: fixed;
+    left: 3em;
+    top: 3rem;
+    padding: 1rem 3rem;
+    background-color: var(--light);
+}
+.flyalert p {
+    margin-bottom: 0;
+}
+.flyalert span {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    color: var(--grey);
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.flyalert span:hover {
+    color: var(--blue);
+}
+
+.back.level {
+    background-color: var(--light);
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.form-select.big {
+    width: 100%;
+}

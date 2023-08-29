@@ -1,0 +1,250 @@
+header.big {
+    background-image: url(../images/robot.png);
+    height: 100vh;
+    
+}
+
+header.big {
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+header.big .menu {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+header.big .menu a {
+    color: var(--grey);
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--blue) !important
+}
+
+header .right {
+    margin-right: 0;
+    background-color: white;
+    height: 100vh;
+}
+
+header .forsheet {
+    height: 45vh;
+    position: relative;
+    left: -15vw;
+}
+
+header .sheet {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    padding: 1.5rem;
+    background-color: white;
+    font-weight: 700;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.26);
+}
+
+header .sheet h2 {
+    font-weight: 700;
+}
+
+header .right p {
+    font-weight: 600;
+    color: var(--grey);
+}
+
+/* header .count_projects {
+    display: flex;
+    flex-direction: column;
+    color: var(--grey);
+    font-weight: 600;
+}
+header .count_projects span.number {
+    color: var(--blue);
+    font-size: 3rem;
+} */
+
+header .content {
+    margin-top: 3rem;
+    height: 45vh
+}
+
+.themes_container .theme {
+    font-size: 1.3rem;
+    height: 6em;
+    background-color: var(--light);
+    width: 23%;
+    color: var(--blue);
+    padding: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.themes_container .theme:hover {
+    background-color: #c7e0fa;
+}
+/* 
+.themes_container .theme:nth-child(1) {
+    background-image: url(../images/icons/book1.svg);
+}
+.themes_container .theme:nth-child(2) {
+    background-image: url(../images/icons/microphone2.svg);
+}
+.themes_container .theme:nth-child(3) {
+    background-image: url(../images/icons/emojihappy.svg);
+}
+.themes_container .theme:nth-child(4) {
+    background-image: url(../images/icons/people.svg);
+} */
+
+.themes_container .theme p {
+    width: 50%;
+}
+
+section .projects.big .project {
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+}
+section .projects.big .project.left {
+    justify-content: flex-end;
+}
+
+section .projects.big .project.right {
+    align-self: flex-end;
+}
+
+section .projects.big .project .info {
+    background-color: var(--light);
+    width: 30%;
+    position: relative;
+    padding: 1.5rem;
+    min-height: 60%;
+}
+section .projects.big .project.right .info {
+    left: -11%;
+}
+section .projects.big .project.left .info {
+    right: -11%;
+}
+
+
+
+section .projects .project .info p {
+    margin-bottom: 0.7rem;
+    line-height: 1.4rem;
+}
+section .projects .project .info .author{
+    display: flex;
+    align-items: center;
+}
+section .projects .project .info .author img {
+    height: 1.5em;
+}
+
+section .projects.big .project .info .category {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 3vw;
+    height: 3vw;
+}
+
+section .projects .project .more {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    width: 12%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+section .projects .project .more:hover {
+    width: 13%;
+}
+
+.cntxt_category {
+    background-color: var(--black);
+    color: white;
+    font-size: 0.8rem;
+    padding: 1em 1.2em;
+}
+
+section .projects.small{
+    margin-top: 4rem;
+}
+section .projects.small .project {
+    background-color: var(--light);
+    padding: 1.5rem;
+    width: 32%;
+    position: relative;
+
+}
+
+section .projects.small .project .img {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section .projects.small .project .info {
+    padding-top: 2rem;
+}
+
+section .projects.small .project .category {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 3vw;
+    height: 3vw;
+    background-color: #f0f7ff97;
+    padding: 0.1vw;
+}
+
+section .projects.small .project .category img {
+    width: 100%;
+    height: 100%;
+}
+
+section .projects.small .project .more {
+    width: 2vw;
+}
+
+section .projects.small .project .more:hover {
+    width: 2.2vw;
+}
+
+.statistic_block {
+    width: 80%;
+}
+
+.chart_legend {
+    margin-left: 3rem;
+    font-size: 20px;
+}
+
+.chart_legend p {
+    display: flex;
+    align-items: center;
+}
+
+.chart_legend .color {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}
