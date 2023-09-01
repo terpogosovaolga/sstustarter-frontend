@@ -1,2 +1,2 @@
-# npm install – установить все записимости (node_modules)
+# npm install – установить все зависимости (node_modules)
 # npm start – запуск 
